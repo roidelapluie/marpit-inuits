@@ -11,13 +11,17 @@ section {
     height: 768px;
     font-size: 36px;
     font-family: 'Open Sans';
-    padding: 0;
-    margin: 0;
+    margin: auto;
+    padding: 5% 0% 0% 0%;
     justify-content: center;
 }
 
-ul {
+section div.content {
     margin: auto;
+}
+
+ul {
+    margin: 0px auto 0px auto;
     list-style: none;
 }
 
@@ -31,6 +35,8 @@ li::before {
 
 p {
     text-align: center;
+    padding: 0px 5%;
+
 }
 
 section.title {
@@ -38,6 +44,7 @@ section.title {
     background-size: 100%;
     padding-left: 0px;
     justify-content: start;
+    padding: 0% 0% 0% 0%;
 }
 
 section.title footer, section.contact footer {
@@ -108,10 +115,10 @@ section h2 {
 
 div.license a {
     color: white;
-
 }
 
 div.license {
+    opacity: .6;
     z-index: 1000;
     font-size: .6em;
     color: white;
@@ -143,9 +150,15 @@ footer {
 }
 
 section.contact {
+    padding: 0% 0% 0% 0%;
     color: white;
     background: rgb(0,167,201);
 }
+
+a {
+    color: rgb(0,167,201);
+}
+
 section.contact .left-right{
     padding: 0px 10% 10% 10%;
 }
@@ -164,10 +177,23 @@ section.blue {
     background: rgb(0,167,201);
 }
 
+div.prelegend {
+    background: rgb(150,150,150);
+    text-align: right;
+    color:white;
+    padding-right: 5%;
+    font-style: italic;
+}
+
 pre {
-
-    margin: auto;
-
+    font-size: .9em;
+    width: 100%;
+    margin: 0;
+    padding: 1%;
+    background-color: rgb(50,50,50);
+    border-top: 5px solid rgb(150,150,150);
+    border-bottom: 5px solid rgb(150,150,150);
+    color:white;
 }
 
 /*
@@ -281,3 +307,14 @@ img
 display: block
 margin: auto
 */
+
+.no-top {
+    margin-top: 0!important;
+}
+.no-bottom {
+    margin-bottom: 0!important;
+}
+.really-no-bottom {
+    margin-bottom: -100px!important;
+}
+
