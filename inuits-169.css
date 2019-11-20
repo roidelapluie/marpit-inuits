@@ -7,8 +7,8 @@ section {
     flex-wrap: nowrap;
 
     background-color:white;
-    width: 1024px;
-    height: 768px;
+    width: 1920px;
+    height: 1080px;
     font-size: 36px;
     font-family: 'Open Sans';
     margin: auto;
@@ -76,7 +76,7 @@ section.title .front .logo {
 section.title .front .author {
     flex: 60%;
     text-align: right;
-    font-size: 74%;
+    font-size: 1.2em;
 }
 
 section.title .front .title {
