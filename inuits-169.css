@@ -40,7 +40,7 @@ p {
 }
 
 section.title {
-    background-image: url('https://roidelapluie.github.io/marpit-inuits/inuits/bg.png');
+    background-image: url('marpit-inuits/inuits/bg.png');
     background-size: 100%;
     padding-left: 0px;
     justify-content: start;
@@ -66,7 +66,7 @@ section.title .front .top {
 section.title .front .logo {
     flex: 40%;
     text-align: left;
-    background-image: url('https://roidelapluie.github.io/marpit-inuits/inuits/logo.png');
+    background-image: url('marpit-inuits/inuits/logo.png');
     background-position: 3% center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ section.title .front .logo {
 }
 
 section.title .front .author {
-    background-image: url('https://roidelapluie.github.io/marpit-inuits/inuits/logo.png');
+    background-image: url('marpit-inuits/inuits/logo.png');
     background-position: 3% center;
     background-size: contain;
     background-repeat: no-repeat;
