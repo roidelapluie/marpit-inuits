@@ -40,7 +40,7 @@ p {
 }
 
 section.title {
-    background-image: url('https://roidelapluie.github.io/marpit-inuits/inuits/bg.png');
+    background-image: url('marpit-inuits/inuits/bg.png');
     background-size: 100%;
     padding-left: 0px;
     justify-content: start;
@@ -66,7 +66,7 @@ section.title .front .top {
 section.title .front .logo {
     flex: 40%;
     text-align: left;
-    background-image: url('https://roidelapluie.github.io/marpit-inuits/inuits/logo.png');
+    background-image: url('marpit-inuits/inuits/logo.png');
     background-position: 3% center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -74,16 +74,23 @@ section.title .front .logo {
 }
 
 section.title .front .author {
+    background-image: url('marpit-inuits/inuits/logo.png');
+    background-position: 3% center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.7);
     flex: 60%;
     text-align: right;
-    font-size: 1.2em;
+    font-size: 1em;
+    color: white;
+    padding: 2%;
 }
 
 section.title .front .title {
     background-color: rgba(0,167,201,.8);
     margin: 0px;
     padding: 4%;
-    font-size: 1.5em;
+    font-size: 1.9em;
     text-align: left;
     color: white;
 }
@@ -105,7 +112,7 @@ section h1 {
     top: 0;
     margin: 0px;
     background: rgb(0,167,201);
-    font-size: 1.6em;
+    font-size: 2.5em;
     color: white;
     width: 100%;
     padding: 2% 2% 2% 0;
@@ -116,7 +123,7 @@ section h1 {
 
 section h2 {
     margin: 0px;
-    font-size: 2em;
+    font-size: 6em;
     color: white;
     width: 100%;
     padding: 2% 2% 2% 0;
@@ -294,7 +301,7 @@ margin: 20% 0px 0px 0px;
 
 .author
 background-color: rgba(0,0,0,.7);
-background-image: url('../../images/themes/inuits/inuits2-tit.png');
+background-image: url('inuits/logo.png');
 background-position: left center;
 background-size: contain;
 background-repeat: no-repeat;
